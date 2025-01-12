@@ -1,0 +1,42 @@
+.profileCard {
+  max-width: 500px;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  padding-top: 10px;
+}
+.profileImg {
+  margin: 0 auto 20px;
+  border-radius: 100px;
+  background-color: #181818;
+  width: 200px;
+}
+.profileTitle {
+  font-weight: 700;
+  font-size: 38px;
+}
+.profileText {
+  color: gray;
+  font-size: 32px;
+}
+.profileList {
+  font-size: 32px;
+  background-color: #d3d3d3;
+  border-top: 2px solid gray;
+  border-radius: 8px;
+  display: flex;
+}
+.profileItem {
+  padding: 10px;
+  border: 1px solid gray;
+  width: calc((100% - 4px) / 2);
+}
+.profileSubtitle {
+  display: flex;
+  flex-direction: column;
+}
+.profileStats {
+  font-weight: 700;
+}

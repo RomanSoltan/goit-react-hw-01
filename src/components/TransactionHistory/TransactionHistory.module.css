@@ -1,0 +1,31 @@
+.transaction {
+  width: 700px;
+  border-collapse: collapse;
+  font-size: 20px;
+  line-height: 1.9;
+  color: #000;
+  margin: 0 auto;
+  border: 2px solid #000000;
+}
+
+.transactionTitle {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.transactionItem {
+  text-align: center;
+}
+
+.transactionItem > td {
+  border: 2px solid #000000;
+}
+
+.transactionType {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.transactionItem:nth-child(2n) {
+  background-color: #d3d3d3;
+}
